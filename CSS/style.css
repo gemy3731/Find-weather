@@ -1,0 +1,112 @@
+body{
+    box-sizing: border-box;
+}
+nav{
+    background-color: #1e202b;
+}
+
+.nav-link {
+    color: #fff;
+}
+.navbar-nav .nav-link.active{
+    color: #009ad8;
+    border: 2px solid #009ad8;
+    border-radius:100vh ;
+}
+.nav-logo{
+    width: 70px;
+}
+.tagline{
+    font-size: 10px;
+}
+
+.nav-link:focus, .nav-link:hover{
+    color: #009ad8;
+    border: 2px solid #009ad8;
+    border-radius:100vh ;
+}
+.navbar-toggler{
+    color: #fff;
+}
+.navbar-toggler:hover{
+    color: #009ad8;
+    border: 2px solid #009ad8;
+    border-radius:100vh ;
+}
+.input-group input::placeholder{
+    color: #797979;
+}
+.input-group>.form-control:focus, .input-group>.form-floating:focus-within, .input-group>.form-select:focus{
+        z-index: 0;
+}
+.form-control:focus{
+        color: #fff;
+        box-shadow:0 0 #1e202b;
+        border-color:#1e202b;
+        background-color: #1e202b;
+}
+.form-control{
+        color: #fff;
+        background-color: #1e202b;
+        border-color:#1e202b;
+}
+.input-group button{
+    background-color: #009ad8;
+}
+.input-group button:hover{
+    background-color: #009ad8;
+}
+.hero{
+    background-image: url(../images/banner.png);
+    background-size: 100% 350px;
+    background-repeat: no-repeat;
+    background-color: #1e202b;
+}
+
+.cardBodyLight{
+   background-color: #323544; 
+}
+.cardHeaderLight{
+    background-color: #2d303d;
+}
+.temp{
+    font-size: 5rem;
+}
+.cardHeaderDark{
+    background-color: #222530;
+}
+.cardBodyDark{
+    background-color: #262936;
+}
+.card{
+    height: 415px;
+}
+footer{
+    background-color: #262936;
+}
+/* .socialMedia span{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #000;
+
+} */
+.socialMedia i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #1e202b;
+    font-size: 20px;
+    color: #009ad8;
+    transition: all 0.4s;
+}
+.socialMedia i:hover{
+    background-color: #009ad8;
+    color: #fff;
+}
+.socialMedia a{
+    text-decoration: none;
+}
+.weatherIcon{
+    width: 40px;
+}

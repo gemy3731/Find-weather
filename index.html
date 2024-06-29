@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container p-4">
+            <a class="navbar-brand d-flex" href="#">
+                <div class="nav-logo me-3">
+                    <img src="images/logo@2x.png" class="w-100" alt="logo">
+                </div>
+                <div class="nav-logo-txt text-light d-flex flex-column">
+                    <span class="fw-bold fs-6">Weather</span>
+                    <span class="text-light text-opacity-75 tagline">tagline goes here</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span><i class="fa fa-bars "></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item  me-3">
+                        <a class="nav-link active px-4 py-0" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item  me-3">
+                        <a class="nav-link px-4 py-0" href="#">News</a>
+                    </li>
+                    <li class="nav-item  me-3">
+                        <a class="nav-link px-4 py-0" href="#">Live cameras</a>
+                    </li>
+                    <li class="nav-item  me-3">
+                        <a class="nav-link px-4 py-0" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item  me-3">
+                        <a class="nav-link px-4 py-0" href="#">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container py-5">
+            <div class="input-group mb-3">
+                <input type="search" class="form-control search-input py-3 rounded-pill" placeholder="Find your location..." aria-label="Find your location...">
+                <button class="btn findBtn rounded-pill px-5 py-3 text-light position-absolute end-0" type="button">Find</button>
+              </div>
+        </div>
+        <div class="container pb-5">
+            <div class="row gx-0" id="weatherCard">
+                
+            </div>
+        </div>
+    </section>
+    <footer>
+        
+        <div class="container py-5 d-flex justify-content-around">
+            <div class="w-50">
+                <div class="input-group mb-3 ">
+                    <input type="email" class="form-control  py-3 rounded-pill" placeholder="Enter your email to subscribe..." aria-label="Find your location...">
+                    <button class="btn rounded-pill px-4 py-3 text-light position-absolute end-0" type="button">Subscribe</button>
+                </div>
+                <p class="text-light text-opacity-75">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+            <div class="socialMedia d-flex">
+                <a href="https://www.facebook.com/" class="me-2">
+                    <span ><i class="fa-brands fa-facebook-f d-flex justify-content-center align-items-center"></i></span>
+                </a>
+                <a href="https://x.com/" class="me-2">
+                    <span class="me-2"><i class="fa-brands fa-twitter d-flex justify-content-center align-items-center"></i></span>
+                </a>
+                <a href="https://support.google.com/" class="me-2">
+                    <span class="me-2"><i class="fa-brands fa-google-plus-g d-flex justify-content-center align-items-center"></i></span>
+                </a>
+                <a href="https://www.pinterest.com/">
+                    <span><i class="fa-brands fa-pinterest d-flex justify-content-center align-items-center"></i></span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="JS/main.js"></script>
+</body>
+</html>
